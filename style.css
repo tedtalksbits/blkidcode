@@ -42,9 +42,6 @@ body {
    font-size: 1.2rem;
    overflow-x: hidden;
 }
-section {
-   /* overflow: hidden; */
-}
 hr {
    width: 90%;
    opacity: 0.2;
@@ -189,6 +186,9 @@ section.bkc__grid {
    gap: 1rem;
    margin: 3rem 0;
 }
+section.bkc__grid a {
+   text-decoration: none;
+}
 .bkc__grid .bkc__grid-card {
    padding: 1rem;
    display: grid;
@@ -243,6 +243,7 @@ section.bkc__section-alt {
    padding: 10% 1rem;
    position: relative;
    transition: opacity 0.3s ease;
+   overflow: hidden;
 }
 .bkc__section-community {
    background: #04c5df;
